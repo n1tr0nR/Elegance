@@ -1,0 +1,20 @@
+{
+  "rose_quartz_place": {
+    "sounds": [
+      "elegance:rose_quartz/place1",
+      "elegance:rose_quartz/place2",
+      "elegance:rose_quartz/place3",
+      "elegance:rose_quartz/place4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "rose_quartz_break": {
+    "sounds": [
+      "elegance:rose_quartz/break1",
+      "elegance:rose_quartz/break2",
+      "elegance:rose_quartz/break3",
+      "elegance:rose_quartz/break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  }
+}

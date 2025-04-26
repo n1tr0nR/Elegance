@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "upside_down=true": { "model": "elegance:block/rose_quartz_prism", "x": 180 },
+    "upside_down=false": { "model": "elegance:block/rose_quartz_prism" }
+  }
+}

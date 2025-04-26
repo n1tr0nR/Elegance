@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "elegance",
+	"version": "${version}",
+	"name": "Elegance",
+	"description": "",
+	"authors": [
+		"Nitron",
+		"Nova"
+	],
+	"license": "ARR",
+	"icon": "assets/elegance/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.nitron.elegance.Elegance"
+		],
+		"client": [
+			"dev.nitron.elegance.EleganceClient"
+		],
+		"fabric-datagen": [
+			"dev.nitron.elegance.EleganceDataGen"
+		]
+	},
+	"mixins": [
+		"elegance.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

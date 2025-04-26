@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "elegance:block/rose_quartz_prism_bottom",
+    "east": "elegance:block/rose_quartz_prism_side",
+    "north": "elegance:block/rose_quartz_prism_side",
+    "particle": "elegance:block/rose_quartz_prism_side",
+    "south": "elegance:block/rose_quartz_prism_side",
+    "up": "elegance:block/rose_quartz_prism",
+    "west": "elegance:block/rose_quartz_prism_side"
+  }
+}
