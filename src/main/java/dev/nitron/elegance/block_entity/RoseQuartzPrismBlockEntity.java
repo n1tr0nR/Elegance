@@ -1,6 +1,7 @@
 package dev.nitron.elegance.block_entity;
 
 import com.google.common.collect.Lists;
+import com.nitron.nitrogen.util.ScreenShaker;
 import dev.nitron.elegance.Elegance;
 import dev.nitron.elegance.block.RoseQuartzPrismBlock;
 import dev.nitron.elegance.registration.ModBlockEntities;
@@ -94,6 +95,9 @@ public class RoseQuartzPrismBlockEntity extends BlockEntity {
             );
             for (LivingEntity entity : entities) {
                 entity.damage(world.getDamageSources().create(Elegance.VAPORISED), 5);
+                if (entity instanceof ScreenShaker shaker){
+                    shaker.addScreenShake(2, 2);
+                }
             }
             if (block instanceof Stainable stainable) {
                 int color = stainable.getColor().getEntityColor();

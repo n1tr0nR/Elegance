@@ -21,7 +21,7 @@ public class ModBlocks {
     public static final BlockSoundGroup ROSE_QUARTZ
             = new BlockSoundGroup(1.0F, 1.0F,
             ModSounds.ROSE_QUARTZ_BREAK,
-            SoundEvents.BLOCK_VAULT_HIT,
+            SoundEvents.BLOCK_VAULT_STEP,
             ModSounds.ROSE_QUARTZ_PLACE,
             SoundEvents.BLOCK_CALCITE_HIT,
             SoundEvents.BLOCK_VAULT_FALL);
