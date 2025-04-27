@@ -1,5 +1,25 @@
 {
+  "block.elegance.compacted_salt": "Compacted Salt",
+  "block.elegance.rose_quartz_bricks": "Rose Quartz Bricks",
   "block.elegance.rose_quartz_prism": "Rose Quartz Prism",
+  "block.elegance.rose_quartz_slab": "Rose Quartz Brick Slab",
+  "block.elegance.rose_quartz_stairs": "Rose Quartz Brick Stairs",
+  "block.elegance.rose_quartz_wall": "Rose Quartz Brick Wall",
+  "block.elegance.salt_brick_slab": "Salt Brick Slab",
+  "block.elegance.salt_brick_stairs": "Salt Brick Stairs",
+  "block.elegance.salt_brick_wall": "Salt Brick Wall",
+  "block.elegance.salt_bricks": "Salt Bricks",
   "death.attack.vaporised": "%1$s was vaporised",
-  "death.attack.vaporised.player": "%1$s was vaporised whilst fighting %2$s"
+  "death.attack.vaporised.player": "%1$s was vaporised whilst fighting %2$s",
+  "enchantment.elegance.refraction": "Refraction",
+  "item.elegance.quorite_battleaxe": "Quorite Battleaxe",
+  "item.elegance.quorite_ingot": "Quorite Ingot",
+  "item.elegance.quorite_nugget": "Quorite Nugget",
+  "item.elegance.quorite_sword": "Quorite Sword",
+  "item.elegance.quorite_twinsword": "Quorite Twinsword",
+  "item.elegance.rose_quartz": "Rose Quartz",
+  "item.elegance.salt": "Salt",
+  "item_group.elegance.elegance": "Elegance",
+  "subtitles.block.rose_quartz.resonate": "Rose quartz prism resonates",
+  "trim_material.elegance.rose_quartz": "Rose Quartz Material"
 }

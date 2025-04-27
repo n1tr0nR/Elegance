@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IGI",
+    "RRR",
+    "III"
+  ],
+  "key": {
+    "R": {
+      "item": "elegance:rose_quartz"
+    },
+    "I": {
+      "item": "elegance:quorite_ingot"
+    },
+    "G": {
+      "item": "minecraft:tinted_glass"
+    }
+  },
+  "result": {
+    "id": "elegance:rose_quartz_prism"
+  }
+}

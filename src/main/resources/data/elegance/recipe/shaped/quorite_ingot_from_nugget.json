@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "item": "elegance:quorite_nugget"
+    }
+  },
+  "result": {
+    "id": "elegance:quorite_ingot"
+  }
+}

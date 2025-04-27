@@ -1,2 +1,11 @@
-// 1.21.1	2025-04-26T23:08:20.2832466	Elegance/Block Loot Tables
+// 1.21.1	2025-04-27T15:34:17.4751449	Elegance/Block Loot Tables
+2195d8a396764c554a10faf1dcba682bf6985abb data\elegance\loot_table\blocks\rose_quartz_stairs.json
+8f86d5417a92f5fde3b38826cfef72409a7671ec data\elegance\loot_table\blocks\salt_brick_wall.json
+08db525d60e759fb6aab6323e35682c2491c9b26 data\elegance\loot_table\blocks\rose_quartz_bricks.json
+bd08facbe709b6dcf7d1f91f723fbe9dc3b87b15 data\elegance\loot_table\blocks\salt_brick_slab.json
+ad2b4a9e1e551cee02fc0e1f4cffe0a0488a590c data\elegance\loot_table\blocks\rose_quartz_slab.json
+8641c6281bec10a8f4d4eb37ed42f2b794c39d01 data\elegance\loot_table\blocks\salt_brick_stairs.json
+da30b5764acd54626d0db818b915d6330928f295 data\elegance\loot_table\blocks\rose_quartz_wall.json
+7afafcc6a98f889f56189853a5fa11beb0eaf605 data\elegance\loot_table\blocks\compacted_salt.json
+e5a5fb994d8c590694d7e0dd669ef02ffd5def3e data\elegance\loot_table\blocks\salt_bricks.json
 5f9bc4be9bbd1631a7f9cb64017733ab7ae109f7 data\elegance\loot_table\blocks\rose_quartz_prism.json

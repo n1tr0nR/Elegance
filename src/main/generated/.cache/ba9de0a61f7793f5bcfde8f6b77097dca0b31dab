@@ -1,3 +1,6 @@
-// 1.21.1	2025-04-26T23:08:20.2822398	Elegance/Tags for minecraft:block
-b082a63320f9aa8d5c07a6d4127c888a885daade data\minecraft\tags\block\mineable\pickaxe.json
-b082a63320f9aa8d5c07a6d4127c888a885daade data\minecraft\tags\block\needs_iron_tool.json
+// 1.21.1	2025-04-27T15:34:17.4737809	Elegance/Tags for minecraft:block
+29df7f2ae213ef231b90c41cf0a3af26b94dd4d1 data\minecraft\tags\block\mineable\pickaxe.json
+efa7252ff43c28c2922bb3c326d1d919a883b462 data\minecraft\tags\block\slabs.json
+a5381ae0d8ce04f50a143c7b4fb3011920ab97dd data\minecraft\tags\block\walls.json
+680b301e38980d6b6a82eda005fd58de89e56fec data\minecraft\tags\block\stairs.json
+29df7f2ae213ef231b90c41cf0a3af26b94dd4d1 data\minecraft\tags\block\needs_iron_tool.json

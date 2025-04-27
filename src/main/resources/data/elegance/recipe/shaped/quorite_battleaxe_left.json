@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "II ",
+    "IAR",
+    "S  "
+  ],
+  "key": {
+    "I": {
+      "item": "elegance:quorite_ingot"
+    },
+    "A": {
+      "item": "minecraft:netherite_axe"
+    },
+    "R": {
+      "item": "elegance:rose_quartz"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "elegance:quorite_battleaxe"
+  }
+}

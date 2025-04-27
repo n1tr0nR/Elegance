@@ -3,12 +3,14 @@
   "package": "dev.nitron.elegance.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "BeaconBlockEntityMixin"
+    "BeaconBlockEntityMixin",
+    "PlayerEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
   },
   "client": [
-    "BeaconBlockEntityRenderMixin"
+    "BeaconBlockEntityRenderMixin",
+    "client.ModelVariationMixin"
   ]
 }

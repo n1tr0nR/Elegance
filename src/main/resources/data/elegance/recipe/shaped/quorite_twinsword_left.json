@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SR ",
+    "RTR",
+    " RS"
+  ],
+  "key": {
+    "R": {
+      "item": "elegance:rose_quartz"
+    },
+    "S": {
+      "item": "elegance:quorite_sword"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "elegance:quorite_twinsword"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "elegance:item/quorite_sword_gui",
+    "layer1": "elegance:item/quorite_sword_gui_overlay"
+  }
+}

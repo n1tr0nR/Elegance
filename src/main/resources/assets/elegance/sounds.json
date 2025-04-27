@@ -16,5 +16,48 @@
       "elegance:rose_quartz/break4"
     ],
     "subtitle": "subtitles.block.generic.break"
+  },
+  "rose_quartz_resonate": {
+  "sounds": [
+    "elegance:rose_quartz/resonate1",
+    "elegance:rose_quartz/resonate2",
+    "elegance:rose_quartz/resonate3"
+  ],
+  "subtitle": "subtitles.block.rose_quartz.resonate"
+},
+  "rose_quartz_attack": {
+    "sounds": [
+      "elegance:player/attack/strong1",
+      "elegance:player/attack/strong2",
+      "elegance:player/attack/strong3",
+      "elegance:player/attack/strong4"
+    ],
+    "subtitle": "subtitles.entity.player.attack.strong"
+  },
+  "rose_quartz_attack_crit": {
+    "sounds": [
+      "elegance:player/attack/crit1",
+      "elegance:player/attack/crit2",
+      "elegance:player/attack/crit3"
+    ],
+    "subtitle": "subtitles.entity.player.attack.crit"
+  },
+  "rose_quartz_attack_sweep": {
+    "sounds": [
+      "elegance:player/attack/sweep1",
+      "elegance:player/attack/sweep2",
+      "elegance:player/attack/sweep3",
+      "elegance:player/attack/sweep4"
+    ],
+    "subtitle": "subtitles.entity.player.attack.sweep"
+  },
+  "rose_quartz_attack_knockback": {
+    "sounds": [
+      "elegance:player/attack/knockback1",
+      "elegance:player/attack/knockback2",
+      "elegance:player/attack/knockback3",
+      "elegance:player/attack/knockback4"
+    ],
+    "subtitle": "subtitles.entity.player.attack.knockback"
   }
 }

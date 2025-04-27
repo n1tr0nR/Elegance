@@ -18,8 +18,35 @@ public class ModBlockTagProvider extends FabricTagProvider<Block> {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.ROSE_QUARTZ_PRISM);
+                .add(ModBlocks.COMPACTED_SALT)
+                .add(ModBlocks.SALT_BRICKS)
+                .add(ModBlocks.SALT_BRICK_STAIRS)
+                .add(ModBlocks.SALT_BRICK_SLAB)
+                .add(ModBlocks.SALT_BRICK_WALL)
+                .add(ModBlocks.ROSE_QUARTZ_PRISM)
+                .add(ModBlocks.ROSE_QUARTZ_BRICKS)
+                .add(ModBlocks.ROSE_QUARTZ_STAIRS)
+                .add(ModBlocks.ROSE_QUARTZ_SLAB)
+                .add(ModBlocks.ROSE_QUARTZ_WALL);
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.ROSE_QUARTZ_PRISM);
+                .add(ModBlocks.COMPACTED_SALT)
+                .add(ModBlocks.SALT_BRICKS)
+                .add(ModBlocks.SALT_BRICK_STAIRS)
+                .add(ModBlocks.SALT_BRICK_SLAB)
+                .add(ModBlocks.SALT_BRICK_WALL)
+                .add(ModBlocks.ROSE_QUARTZ_PRISM)
+                .add(ModBlocks.ROSE_QUARTZ_BRICKS)
+                .add(ModBlocks.ROSE_QUARTZ_STAIRS)
+                .add(ModBlocks.ROSE_QUARTZ_SLAB)
+                .add(ModBlocks.ROSE_QUARTZ_WALL);
+        getOrCreateTagBuilder(BlockTags.STAIRS)
+                .add(ModBlocks.SALT_BRICK_STAIRS)
+                .add(ModBlocks.ROSE_QUARTZ_STAIRS);
+        getOrCreateTagBuilder(BlockTags.SLABS)
+                .add(ModBlocks.ROSE_QUARTZ_SLAB)
+                .add(ModBlocks.SALT_BRICK_SLAB);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.ROSE_QUARTZ_WALL)
+                .add(ModBlocks.SALT_BRICK_WALL);
     }
 }

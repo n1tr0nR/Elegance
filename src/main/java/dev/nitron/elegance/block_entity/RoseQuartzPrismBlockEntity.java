@@ -7,6 +7,7 @@ import dev.nitron.elegance.block.RoseQuartzPrismBlock;
 import dev.nitron.elegance.registration.ModBlockEntities;
 import dev.nitron.elegance.registration.ModBlocks;
 import dev.nitron.elegance.registration.ModParticles;
+import dev.nitron.elegance.registration.ModSounds;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.LivingEntity;
@@ -15,7 +16,10 @@ import net.minecraft.nbt.NbtCompound;
 import net.minecraft.network.packet.s2c.play.BlockEntityUpdateS2CPacket;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.math.*;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.world.Heightmap;
 import net.minecraft.world.World;
 
@@ -86,11 +90,14 @@ public class RoseQuartzPrismBlockEntity extends BlockEntity {
             if (world instanceof ServerWorld serverWorld){
                 if (serverWorld.getRandom().nextInt(15) == 0)
                     serverWorld.spawnParticles(ModParticles.ROSE_SPARK, currentPos.getX() + 0.5F, currentPos.getY() + 0.5F, currentPos.getZ() + 0.5F, 1, 0.3F, 0.5F, 0.3F, 0);
+                if (Random.create().nextInt(1500) <= 0){
+                    serverWorld.playSound(null, currentPos, ModSounds.ROSE_QUARTZ_RESONATE, SoundCategory.BLOCKS, 0.25F, 1.0F);
+                }
             }
             Vec3d center = new Vec3d(currentPos.getX(), currentPos.getY(), currentPos.getZ());
             List<LivingEntity> entities = world.getEntitiesByClass(
                     LivingEntity.class,
-                    Box.from(center).expand(0),
+                    Box.from(center).expand(-0.3F),
                     livingEntity -> true
             );
             for (LivingEntity entity : entities) {

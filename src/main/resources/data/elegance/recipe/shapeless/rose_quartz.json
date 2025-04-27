@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "elegance:salt"
+    },
+    {
+      "item": "elegance:salt"
+    },
+    {
+      "item": "elegance:salt"
+    },
+    {
+      "item": "elegance:salt"
+    },
+    {
+      "item": "elegance:salt"
+    },
+    {
+      "item": "elegance:salt"
+    },
+    {
+      "item": "elegance:salt"
+    },
+    {
+      "item": "elegance:salt"
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": {
+    "id": "elegance:rose_quartz"
+  }
+}

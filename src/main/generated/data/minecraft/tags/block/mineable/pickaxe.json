@@ -1,5 +1,14 @@
 {
   "values": [
-    "elegance:rose_quartz_prism"
+    "elegance:compacted_salt",
+    "elegance:salt_bricks",
+    "elegance:salt_brick_stairs",
+    "elegance:salt_brick_slab",
+    "elegance:salt_brick_wall",
+    "elegance:rose_quartz_prism",
+    "elegance:rose_quartz_bricks",
+    "elegance:rose_quartz_stairs",
+    "elegance:rose_quartz_slab",
+    "elegance:rose_quartz_wall"
   ]
 }

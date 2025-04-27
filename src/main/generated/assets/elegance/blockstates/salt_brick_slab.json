@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elegance:block/salt_brick_slab"
+    },
+    "type=double": {
+      "model": "elegance:block/salt_bricks"
+    },
+    "type=top": {
+      "model": "elegance:block/salt_brick_slab_top"
+    }
+  }
+}

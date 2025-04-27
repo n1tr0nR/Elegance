@@ -1,0 +1,9 @@
+{
+  "asset_name": "rose_quartz",
+  "description": {
+    "color": "#FF767E",
+    "translate": "trim_material.elegance.rose_quartz"
+  },
+  "ingredient": "elegance:rose_quartz",
+  "item_model_index": 1.0
+}

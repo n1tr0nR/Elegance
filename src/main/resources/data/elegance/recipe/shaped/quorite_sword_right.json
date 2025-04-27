@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " NR",
+    "IRN",
+    "SI"
+  ],
+  "key": {
+    "R": {
+      "item": "elegance:rose_quartz"
+    },
+    "S": {
+      "item": "minecraft:netherite_sword"
+    },
+    "N": {
+      "item": "elegance:quorite_nugget"
+    },
+    "I": {
+      "item": "elegance:quorite_ingot"
+    }
+  },
+  "result": {
+    "id": "elegance:quorite_sword"
+  }
+}

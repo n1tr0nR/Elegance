@@ -1,0 +1,21 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.elegance.refraction"
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 6
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 6
+  },
+  "slots": [
+    "hand"
+  ],
+  "exclusive_set": "#elegance:exclusive_set/quorite_sword",
+  "supported_items": "elegance:quorite_sword",
+  "weight": 5
+}

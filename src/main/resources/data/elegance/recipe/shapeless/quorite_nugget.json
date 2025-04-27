@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "elegance:quorite_ingot"
+    }
+  ],
+  "result": {
+    "id": "elegance:quorite_nugget",
+    "count": 9
+  }
+}
